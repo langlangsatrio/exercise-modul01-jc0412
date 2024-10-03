@@ -9,12 +9,12 @@ if (numberChecker === 0) {
 
 
 //Number 2: Prime Number [UNSOLVED] //
-let primeNumber = 20;
-for (let i = 1; i < primeNumber; i++) {
+let primeNumber = 18;
+for (let i = 2; i < primeNumber; i++) {
     if (primeNumber % i === 0) {
-        console.log(`${primeNumber} is a prime number`)
-    } else {
         console.log(`${primeNumber} is not a prime number`)
+    } else {
+        console.log(`${primeNumber} is a prime number`)
     } break
 }
 
